@@ -1,0 +1,11 @@
+framework module NXCDLivenessSDK {
+  umbrella header "NXCDLivenessSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module NXCDLivenessSDK.Swift {
+    header "NXCDLivenessSDK-Swift.h"
+    requires objc
+}

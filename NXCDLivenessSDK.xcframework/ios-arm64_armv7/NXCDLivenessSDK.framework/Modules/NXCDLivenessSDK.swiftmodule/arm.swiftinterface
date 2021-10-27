@@ -1,0 +1,136 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NXCDLivenessSDK
+import AVFoundation
+import Foundation
+import MLKitFaceDetection
+import MLKitObjectDetection
+import MLKitVision
+@_exported import NXCDLivenessSDK
+import Swift
+import UIKit
+import _Concurrency
+public protocol SDKAppearance {
+  var hideCloseButton: Swift.Bool { get }
+  var closeButtonColor: UIKit.UIColor { get }
+  var backgroundColor: UIKit.UIColor { get }
+  var footerBackgroundColor: UIKit.UIColor { get }
+  var footerCornderRadius: CoreGraphics.CGFloat { get }
+  var instructionsFont: UIKit.UIFont { get }
+  var instructionsTextColor: UIKit.UIColor { get }
+  var faceCutoutBackgroundColor: UIKit.UIColor { get }
+  var faceCutoutPositiveColor: UIKit.UIColor { get }
+  var faceCutoutNegativeColor: UIKit.UIColor { get }
+}
+public struct LivenessCameraViewControllerAppearance : NXCDLivenessSDK.SDKAppearance {
+  public var hideCloseButton: Swift.Bool
+  public var closeButtonColor: UIKit.UIColor
+  public var backgroundColor: UIKit.UIColor
+  public var footerBackgroundColor: UIKit.UIColor
+  public var footerCornderRadius: CoreGraphics.CGFloat
+  public var instructionsFont: UIKit.UIFont
+  public var instructionsTextColor: UIKit.UIColor
+  public var faceCutoutBackgroundColor: UIKit.UIColor
+  public var faceCutoutPositiveColor: UIKit.UIColor
+  public var faceCutoutNegativeColor: UIKit.UIColor
+  public init(hideCloseButton: Swift.Bool = false, closeButtonColor: UIKit.UIColor = .white, backgroundColor: UIKit.UIColor = .white, footerBackgroundColor: UIKit.UIColor = .white, footerCornderRadius: CoreGraphics.CGFloat = 6.0, instructionsFont: UIKit.UIFont = .preferredFont(forTextStyle: .headline), instructionsTextColor: UIKit.UIColor = .black, faceCutoutBackgroundColor: UIKit.UIColor = UIColor.black.withAlphaComponent(0.5), faceCutoutPositiveColor: UIKit.UIColor = .green, faceCutoutNegativeColor: UIKit.UIColor = .red)
+}
+public struct DocumentCameraViewControllerAppearance : NXCDLivenessSDK.SDKAppearance {
+  public var hideCloseButton: Swift.Bool
+  public var closeButtonColor: UIKit.UIColor
+  public var backgroundColor: UIKit.UIColor
+  public var footerBackgroundColor: UIKit.UIColor
+  public var footerCornderRadius: CoreGraphics.CGFloat
+  public var instructionsFont: UIKit.UIFont
+  public var instructionsTextColor: UIKit.UIColor
+  public var faceCutoutBackgroundColor: UIKit.UIColor
+  public var faceCutoutPositiveColor: UIKit.UIColor
+  public var faceCutoutNegativeColor: UIKit.UIColor
+  public var shouldShowRectangleObjectDetect: Swift.Bool
+  public var rectangleObjectDetectColor: UIKit.UIColor
+  public init(hideCloseButton: Swift.Bool = false, closeButtonColor: UIKit.UIColor = .white, backgroundColor: UIKit.UIColor = .white, footerBackgroundColor: UIKit.UIColor = .white, footerCornderRadius: CoreGraphics.CGFloat = 6.0, instructionsFont: UIKit.UIFont = .preferredFont(forTextStyle: .headline), instructionsTextColor: UIKit.UIColor = .black, faceCutoutBackgroundColor: UIKit.UIColor = UIColor.black.withAlphaComponent(0.5), faceCutoutPositiveColor: UIKit.UIColor = .green, faceCutoutNegativeColor: UIKit.UIColor = .red, shouldShowRectangleObjectDetect: Swift.Bool = true, rectangleObjectDetectColor: UIKit.UIColor = .white)
+}
+public protocol DetectionParameters {
+  var detectionTimeout: Foundation.TimeInterval { get }
+}
+public struct LivenessPoseDetectionParameters : NXCDLivenessSDK.DetectionParameters {
+  public var detectionTimeout: Swift.Double
+  public init(detectionTimeout: Foundation.TimeInterval = 20.0)
+}
+public struct DocumentDetectionParameters : NXCDLivenessSDK.DetectionParameters {
+  public var detectionTimeout: Swift.Double
+  public init(detectionTimeout: Foundation.TimeInterval = 20.0)
+}
+public protocol DocumentCameraViewControllerDelegate : AnyObject {
+  func completedDocumentProcessing(documentResult: Swift.Result<[Swift.String : Any], NXCDLivenessSDK.SDKError>, image: UIKit.UIImage?)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentCameraViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var delegate: NXCDLivenessSDK.DocumentCameraViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public let viewModel: NXCDLivenessSDK.DocumentViewModel
+  @_Concurrency.MainActor(unsafe) public init(appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance, viewModel: NXCDLivenessSDK.DocumentViewModel)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension NXCDLivenessSDK.DocumentCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+public struct DocumentInstructionsModel {
+  public init(phoneParallelToDocument: Swift.String = "Colocar telefone paralelo ao documento", bringCameraCloser: Swift.String = "Aproxime a câmera", moveCameraAway: Swift.String = "Afaste a câmera", centerTheDocument: Swift.String = "Centralize o documento", processing: Swift.String = "Processando")
+}
+public struct DocumentServiceConfiguration : NXCDLivenessSDK.ServiceConfiguration {
+  public let isTest: Swift.Bool
+  public let apiKey: Swift.String
+  public init(isTest: Swift.Bool = false, apiKey: Swift.String)
+}
+public class DocumentViewModel {
+  public init(serviceConfig: NXCDLivenessSDK.DocumentServiceConfiguration, detectionParameters: NXCDLivenessSDK.DocumentDetectionParameters = DocumentDetectionParameters(), documentInstructions: NXCDLivenessSDK.DocumentInstructionsModel = DocumentInstructionsModel())
+  @objc deinit
+}
+public protocol LivenessCameraViewControllerDelegate : AnyObject {
+  func completedLivenessProcessing(result: Swift.Result<[Swift.String : Any], NXCDLivenessSDK.SDKError>, image: UIKit.UIImage?)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LivenessCameraViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var delegate: NXCDLivenessSDK.LivenessCameraViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public let viewModel: NXCDLivenessSDK.LivenessViewModel
+  @_Concurrency.MainActor(unsafe) public init(appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance, viewModel: NXCDLivenessSDK.LivenessViewModel)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension NXCDLivenessSDK.LivenessCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+public struct LivenessInstructionsModel {
+  public init(moreThanOnePerson: Swift.String = "Mais de uma pessoa detectada", keepYourEyesOpen: Swift.String = "Mantenha os olhos abertos", keepNaturalExpression: Swift.String = "Mantenha uma expressão neutra", turnLeft: Swift.String = "Vire para a esquerda", turnRight: Swift.String = "Vire para a direita", lowerYourHead: Swift.String = "Abaixe a cabeça", liftYourHead: Swift.String = "Levante a cabeça", bringFaceCloser: Swift.String = "Aproxime o rosto", moveFaceAway: Swift.String = "Afaste o rosto", centerTheFace: Swift.String = "Centralize o rosto", processing: Swift.String = "Processando")
+}
+public struct LivenessServiceConfiguration : NXCDLivenessSDK.ServiceConfiguration {
+  public let isTest: Swift.Bool
+  public let apiKey: Swift.String
+  public init(isTest: Swift.Bool = false, apiKey: Swift.String)
+}
+final public class LivenessViewModel {
+  public init(serviceConfig: NXCDLivenessSDK.LivenessServiceConfiguration, detectionParameters: NXCDLivenessSDK.LivenessPoseDetectionParameters = LivenessPoseDetectionParameters(), livenessInstructions: NXCDLivenessSDK.LivenessInstructionsModel = LivenessInstructionsModel())
+  @objc deinit
+}
+public enum SDKError : Swift.Error {
+  case badURL
+  case empytData
+  case responseError(Swift.String)
+  case error([Swift.String : Any])
+  case unknownError(Swift.String)
+}
+public protocol ServiceConfiguration {
+  var isTest: Swift.Bool { get }
+  var apiKey: Swift.String { get }
+}
