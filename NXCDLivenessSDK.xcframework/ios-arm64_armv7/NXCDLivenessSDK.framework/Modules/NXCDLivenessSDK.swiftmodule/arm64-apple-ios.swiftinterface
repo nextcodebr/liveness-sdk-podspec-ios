@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NXCDLivenessSDK
 import AVFoundation
 import Foundation
@@ -80,6 +80,10 @@ public protocol DocumentCameraViewControllerDelegate : AnyObject {
 extension NXCDLivenessSDK.DocumentCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
+@_hasMissingDesignatedInitializers final public class Document {
+  public static func start(serviceConfig: NXCDLivenessSDK.DocumentServiceConfiguration, detectionParameters: NXCDLivenessSDK.DocumentDetectionParameters = DocumentDetectionParameters(), livenessInstructions: NXCDLivenessSDK.DocumentInstructionsModel = DocumentInstructionsModel(), appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance = DocumentCameraViewControllerAppearance(), delegate: NXCDLivenessSDK.DocumentCameraViewControllerDelegate?) -> NXCDLivenessSDK.DocumentCameraViewController
+  @objc deinit
+}
 public struct DocumentInstructionsModel {
   public init(phoneParallelToDocument: Swift.String = "Colocar telefone paralelo ao documento", bringCameraCloser: Swift.String = "Aproxime a câmera", moveCameraAway: Swift.String = "Afaste a câmera", centerTheDocument: Swift.String = "Centralize o documento", processing: Swift.String = "Processando")
 }
@@ -110,6 +114,10 @@ public protocol LivenessCameraViewControllerDelegate : AnyObject {
 }
 extension NXCDLivenessSDK.LivenessCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+@_hasMissingDesignatedInitializers final public class Liveness {
+  public static func start(serviceConfig: NXCDLivenessSDK.LivenessServiceConfiguration, detectionParameters: NXCDLivenessSDK.LivenessPoseDetectionParameters = LivenessPoseDetectionParameters(), livenessInstructions: NXCDLivenessSDK.LivenessInstructionsModel = LivenessInstructionsModel(), appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance = LivenessCameraViewControllerAppearance(), delegate: NXCDLivenessSDK.LivenessCameraViewControllerDelegate?) -> NXCDLivenessSDK.LivenessCameraViewController
+  @objc deinit
 }
 public struct LivenessInstructionsModel {
   public init(moreThanOnePerson: Swift.String = "Mais de uma pessoa detectada", keepYourEyesOpen: Swift.String = "Mantenha os olhos abertos", keepNaturalExpression: Swift.String = "Mantenha uma expressão neutra", turnLeft: Swift.String = "Vire para a esquerda", turnRight: Swift.String = "Vire para a direita", lowerYourHead: Swift.String = "Abaixe a cabeça", liftYourHead: Swift.String = "Levante a cabeça", bringFaceCloser: Swift.String = "Aproxime o rosto", moveFaceAway: Swift.String = "Afaste o rosto", centerTheFace: Swift.String = "Centralize o rosto", processing: Swift.String = "Processando")
