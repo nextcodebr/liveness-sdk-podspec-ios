@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NXCDLivenessSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NXCDLivenessSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Foundation
 import MLKitFaceDetection
@@ -67,21 +67,21 @@ public struct DocumentDetectionParameters : NXCDLivenessSDK.DetectionParameters 
 public protocol DocumentCameraViewControllerDelegate : AnyObject {
   func completedDocumentProcessing(documentResult: Swift.Result<[Swift.String : Any], NXCDLivenessSDK.SDKError>, image: UIKit.UIImage?)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentCameraViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var delegate: (any NXCDLivenessSDK.DocumentCameraViewControllerDelegate)?
-  @_Concurrency.MainActor(unsafe) public var appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DocumentCameraViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any NXCDLivenessSDK.DocumentCameraViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public let viewModel: NXCDLivenessSDK.DocumentViewModel
-  @_Concurrency.MainActor(unsafe) public init(appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance, viewModel: NXCDLivenessSDK.DocumentViewModel)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency final public let viewModel: NXCDLivenessSDK.DocumentViewModel
+  @_Concurrency.MainActor @preconcurrency public init(appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance, viewModel: NXCDLivenessSDK.DocumentViewModel)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension NXCDLivenessSDK.DocumentCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
 @_hasMissingDesignatedInitializers final public class Document {
   public static func start(serviceConfig: NXCDLivenessSDK.DocumentServiceConfiguration, detectionParameters: NXCDLivenessSDK.DocumentDetectionParameters = DocumentDetectionParameters(), livenessInstructions: NXCDLivenessSDK.DocumentInstructionsModel = DocumentInstructionsModel(), appearance: NXCDLivenessSDK.DocumentCameraViewControllerAppearance = DocumentCameraViewControllerAppearance(), delegate: (any NXCDLivenessSDK.DocumentCameraViewControllerDelegate)?) -> NXCDLivenessSDK.DocumentCameraViewController
@@ -102,21 +102,21 @@ public class DocumentViewModel {
 public protocol LivenessCameraViewControllerDelegate : AnyObject {
   func completedLivenessProcessing(result: Swift.Result<[Swift.String : Any], NXCDLivenessSDK.SDKError>, image: UIKit.UIImage?)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LivenessCameraViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var delegate: (any NXCDLivenessSDK.LivenessCameraViewControllerDelegate)?
-  @_Concurrency.MainActor(unsafe) public var appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class LivenessCameraViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any NXCDLivenessSDK.LivenessCameraViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public let viewModel: NXCDLivenessSDK.LivenessViewModel
-  @_Concurrency.MainActor(unsafe) public init(appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance, viewModel: NXCDLivenessSDK.LivenessViewModel)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency final public let viewModel: NXCDLivenessSDK.LivenessViewModel
+  @_Concurrency.MainActor @preconcurrency public init(appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance, viewModel: NXCDLivenessSDK.LivenessViewModel)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension NXCDLivenessSDK.LivenessCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
 @_hasMissingDesignatedInitializers final public class Liveness {
   public static func start(serviceConfig: NXCDLivenessSDK.LivenessServiceConfiguration, detectionParameters: NXCDLivenessSDK.LivenessPoseDetectionParameters = LivenessPoseDetectionParameters(), livenessInstructions: NXCDLivenessSDK.LivenessInstructionsModel = LivenessInstructionsModel(), appearance: NXCDLivenessSDK.LivenessCameraViewControllerAppearance = LivenessCameraViewControllerAppearance(), delegate: (any NXCDLivenessSDK.LivenessCameraViewControllerDelegate)?) -> NXCDLivenessSDK.LivenessCameraViewController
