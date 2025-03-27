@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		83UnhKufMvgThQKRmDNei/dP8G0=
+		+vhp6XUreXy6uONGArQIUez4QOA=
 		</data>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VGob81rI/M/0uG7W0b4gGXiRubQ=
+		OguTZAqy9VYhxcgL5vPVi45XC6A=
 		</data>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mI+GiW5mK6ZkxgWXof85qD4C5bg=
+		DyjOvoJurNQBlbhUzPyFjAVAXA4=
 		</data>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VGob81rI/M/0uG7W0b4gGXiRubQ=
+		OguTZAqy9VYhxcgL5vPVi45XC6A=
 		</data>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lMzOVWLX8toEEK+DdPoQ3squKtc=
+		zXUEZsNpcUnL+KEk3miCWOD1+zs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VGob81rI/M/0uG7W0b4gGXiRubQ=
+			OguTZAqy9VYhxcgL5vPVi45XC6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			l1KnAVuCCZeh3b6KSAQ/5cnIbAGgejVb6EHbEJN+5iU=
+			RfVNBHfg07FWjdkP2jJgJx6VyRUPABsDWPWfxI6uVuM=
 			</data>
 		</dict>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,22 +133,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mI+GiW5mK6ZkxgWXof85qD4C5bg=
+			DyjOvoJurNQBlbhUzPyFjAVAXA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ruN5om6m2YMOLKcWv34GesOzyIuONdB5IrYVtJr5Byk=
+			Ng53kVVmmmO2IyJ5Rmhy1QOgE58nteV0Aa/GAOiyisU=
 			</data>
 		</dict>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VGob81rI/M/0uG7W0b4gGXiRubQ=
+			OguTZAqy9VYhxcgL5vPVi45XC6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			l1KnAVuCCZeh3b6KSAQ/5cnIbAGgejVb6EHbEJN+5iU=
+			RfVNBHfg07FWjdkP2jJgJx6VyRUPABsDWPWfxI6uVuM=
 			</data>
 		</dict>
 		<key>Modules/NXCDLivenessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lMzOVWLX8toEEK+DdPoQ3squKtc=
+			zXUEZsNpcUnL+KEk3miCWOD1+zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fv2bcGeJNhhnBTNHht48L7Q0wlR+NDqaVqdjoSRqZHI=
+			b0yJaGbQr0nUQfa+yJw7YiT283rV1S4BjdJmVn4e15M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
