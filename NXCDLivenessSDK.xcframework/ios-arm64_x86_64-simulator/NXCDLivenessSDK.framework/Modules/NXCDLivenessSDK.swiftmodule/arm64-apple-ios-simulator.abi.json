@@ -5812,945 +5812,945 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "BooleanLiteral",
       "offset": 709,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 915,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 1141,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "BooleanLiteral",
       "offset": 1299,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 1449,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 1633,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "BooleanLiteral",
       "offset": 2401,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 2607,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 2833,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "BooleanLiteral",
       "offset": 3005,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "BooleanLiteral",
       "offset": 3111,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 3261,
       "length": 3,
       "value": "6.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "FloatLiteral",
       "offset": 3445,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigAppearance.swift",
       "kind": "BooleanLiteral",
       "offset": 3575,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
       "offset": 329,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
       "offset": 385,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
       "offset": 564,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
       "offset": 620,
       "length": 4,
       "value": "20.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 547,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 775,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 947,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1165,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1364,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1556,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1758,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1916,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "StringLiteral",
       "offset": 1951,
       "length": 26,
       "value": "\"Procurando seu documento\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2178,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2411,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2457,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2670,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2715,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2799,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3407,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 3517,
       "length": 5,
       "value": "-60.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3535,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3773,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3823,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4123,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4165,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4332,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "StringLiteral",
       "offset": 4426,
       "length": 5,
       "value": "\"SIM\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4574,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4727,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4791,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "StringLiteral",
       "offset": 4821,
       "length": 6,
       "value": "\"NÃO\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4970,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCutoutView.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCutoutView.swift",
       "kind": "FloatLiteral",
       "offset": 244,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentCutoutView.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCutoutView.swift",
       "kind": "BooleanLiteral",
       "offset": 603,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 40,
       "value": "\"Colocar telefone paralelo ao documento\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 473,
       "length": 20,
       "value": "\"Aproxime a câmera\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 536,
       "length": 18,
       "value": "\"Afaste a câmera\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 24,
       "value": "\"Centralize o documento\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 13,
       "value": "\"Processando\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
       "kind": "BooleanLiteral",
       "offset": 271,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
       "kind": "StringLiteral",
       "offset": 423,
       "length": 42,
       "value": "\"https:\/\/api-homolog.nxcd.app\/classify\/v3\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 34,
       "value": "\"https:\/\/api.nxcd.app\/classify\/v3\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 631,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1852,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 2152,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 2215,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 2448,
       "length": 4,
       "value": "1.05"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 2511,
       "length": 4,
       "value": "1.05"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 2739,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 2797,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 3027,
       "length": 3,
       "value": "1.1"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 3085,
       "length": 3,
       "value": "1.1"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 3279,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 530,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 758,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 930,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1148,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1347,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1539,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1749,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1907,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "StringLiteral",
       "offset": 1942,
       "length": 22,
       "value": "\"Centralize seu rosto\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2165,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2394,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2436,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2645,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2690,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2774,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3127,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3382,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 3492,
       "length": 5,
       "value": "-60.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3510,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3748,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3798,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4086,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4124,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4287,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "StringLiteral",
       "offset": 4381,
       "length": 5,
       "value": "\"SIM\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4529,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4682,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4746,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "StringLiteral",
       "offset": 4776,
       "length": 6,
       "value": "\"NÃO\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "FloatLiteral",
       "offset": 4925,
       "length": 3,
       "value": "4.0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessCameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5329,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessFaceCutoutView.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessFaceCutoutView.swift",
       "kind": "FloatLiteral",
       "offset": 268,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessFaceCutoutView.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessFaceCutoutView.swift",
       "kind": "BooleanLiteral",
       "offset": 627,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 30,
       "value": "\"Mais de uma pessoa detectada\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 27,
       "value": "\"Mantenha os olhos abertos\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 32,
       "value": "\"Mantenha uma expressão neutra\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 22,
       "value": "\"Vire para a esquerda\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 834,
       "length": 21,
       "value": "\"Vire para a direita\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 18,
       "value": "\"Abaixe a cabeça\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 956,
       "length": 19,
       "value": "\"Levante a cabeça\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 1019,
       "length": 18,
       "value": "\"Aproxime o rosto\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 1078,
       "length": 16,
       "value": "\"Afaste o rosto\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 1136,
       "length": 20,
       "value": "\"Centralize o rosto\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessInstructionsModel.swift",
       "kind": "StringLiteral",
       "offset": 1195,
       "length": 13,
       "value": "\"Processando\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
       "kind": "BooleanLiteral",
       "offset": 288,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 42,
       "value": "\"https:\/\/api-homolog.nxcd.app\/liveness\/v3\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 34,
       "value": "\"https:\/\/api.nxcd.app\/liveness\/v3\""
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 938,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 3877,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 3945,
       "length": 4,
       "value": "0.65"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 4103,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 4197,
       "length": 4,
       "value": "0.85"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 4352,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 4446,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 4505,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 4661,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 4756,
       "length": 4,
       "value": "0.20"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 4817,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 4973,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 5039,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 5079,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 5113,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 5147,
       "length": 1,
