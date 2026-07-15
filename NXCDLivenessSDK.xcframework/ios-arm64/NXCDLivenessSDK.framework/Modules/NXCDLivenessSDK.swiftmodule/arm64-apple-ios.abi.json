@@ -1431,6 +1431,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "SDKAppearance",
+            "printedName": "SDKAppearance",
+            "usr": "s:15NXCDLivenessSDK13SDKAppearanceP",
+            "mangledName": "$s15NXCDLivenessSDK13SDKAppearanceP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -1442,13 +1449,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SDKAppearance",
-            "printedName": "SDKAppearance",
-            "usr": "s:15NXCDLivenessSDK13SDKAppearanceP",
-            "mangledName": "$s15NXCDLivenessSDK13SDKAppearanceP"
           }
         ]
       },
@@ -2605,6 +2605,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "SDKAppearance",
+            "printedName": "SDKAppearance",
+            "usr": "s:15NXCDLivenessSDK13SDKAppearanceP",
+            "mangledName": "$s15NXCDLivenessSDK13SDKAppearanceP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -2616,14 +2623,17 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SDKAppearance",
-            "printedName": "SDKAppearance",
-            "usr": "s:15NXCDLivenessSDK13SDKAppearanceP",
-            "mangledName": "$s15NXCDLivenessSDK13SDKAppearanceP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "NXCDLivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -2631,10 +2641,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "NXCDLivenessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NXCDLivenessSDK"
       },
       {
         "kind": "TypeDecl",
@@ -2838,6 +2845,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "DetectionParameters",
+            "printedName": "DetectionParameters",
+            "usr": "s:15NXCDLivenessSDK19DetectionParametersP",
+            "mangledName": "$s15NXCDLivenessSDK19DetectionParametersP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -2849,13 +2863,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DetectionParameters",
-            "printedName": "DetectionParameters",
-            "usr": "s:15NXCDLivenessSDK19DetectionParametersP",
-            "mangledName": "$s15NXCDLivenessSDK19DetectionParametersP"
           }
         ]
       },
@@ -2951,9 +2958,270 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "zoomFactor",
+            "printedName": "zoomFactor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor12CoreGraphics7CGFloatVvp",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor12CoreGraphics7CGFloatVvg",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor12CoreGraphics7CGFloatVvs",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV10zoomFactor12CoreGraphics7CGFloatVvM",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minFillRatio",
+            "printedName": "minFillRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio12CoreGraphics7CGFloatVvp",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio12CoreGraphics7CGFloatVvg",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio12CoreGraphics7CGFloatVvs",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV12minFillRatio12CoreGraphics7CGFloatVvM",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectTolerance",
+            "printedName": "aspectTolerance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance12CoreGraphics7CGFloatVvp",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance12CoreGraphics7CGFloatVvg",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance12CoreGraphics7CGFloatVvs",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV15aspectTolerance12CoreGraphics7CGFloatVvM",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(detectionTimeout:)",
+            "printedName": "init(detectionTimeout:zoomFactor:minFillRatio:aspectTolerance:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2967,11 +3235,32 @@
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV16detectionTimeoutACSd_tcfc",
-            "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV16detectionTimeoutACSd_tcfc",
+            "usr": "s:15NXCDLivenessSDK27DocumentDetectionParametersV16detectionTimeout10zoomFactor12minFillRatio15aspectToleranceACSd_14CoreFoundation7CGFloatVA2Jtcfc",
+            "mangledName": "$s15NXCDLivenessSDK27DocumentDetectionParametersV16detectionTimeout10zoomFactor12minFillRatio15aspectToleranceACSd_12CoreGraphics7CGFloatVA2Jtcfc",
             "moduleName": "NXCDLivenessSDK",
             "declAttributes": [
               "AccessControl"
@@ -2989,6 +3278,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "DetectionParameters",
+            "printedName": "DetectionParameters",
+            "usr": "s:15NXCDLivenessSDK19DetectionParametersP",
+            "mangledName": "$s15NXCDLivenessSDK19DetectionParametersP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3000,13 +3296,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DetectionParameters",
-            "printedName": "DetectionParameters",
-            "usr": "s:15NXCDLivenessSDK19DetectionParametersP",
-            "mangledName": "$s15NXCDLivenessSDK19DetectionParametersP"
           }
         ]
       },
@@ -3132,6 +3421,95 @@
         "name": "DocumentCameraViewController",
         "printedName": "DocumentCameraViewController",
         "children": [
+          {
+            "kind": "Var",
+            "name": "isDebugModeEnabled",
+            "printedName": "isDebugModeEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvp",
+            "mangledName": "$s15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvp",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvg",
+                "mangledName": "$s15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvg",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvs",
+                "mangledName": "$s15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvs",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvM",
+                "mangledName": "$s15NXCDLivenessSDK28DocumentCameraViewControllerC18isDebugModeEnabledSbvM",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "delegate",
@@ -3610,6 +3988,58 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "photoOutput",
+            "printedName": "photoOutput(_:didFinishProcessingPhoto:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhotoOutput",
+                "printedName": "AVFoundation.AVCapturePhotoOutput",
+                "usr": "c:objc(cs)AVCapturePhotoOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhoto",
+                "printedName": "AVFoundation.AVCapturePhoto",
+                "usr": "c:objc(cs)AVCapturePhoto"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@NXCDLivenessSDK@objc(cs)DocumentCameraViewController(im)captureOutput:didFinishProcessingPhoto:error:",
+            "mangledName": "$s15NXCDLivenessSDK28DocumentCameraViewControllerC11photoOutput_24didFinishProcessingPhoto5errorySo09AVCapturelH0C_So0nL0Cs5Error_pSgtF",
+            "moduleName": "NXCDLivenessSDK",
+            "objc_name": "captureOutput:didFinishProcessingPhoto:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -3632,38 +4062,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -3674,10 +4076,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -3688,10 +4104,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -3710,7 +4140,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(serviceConfig:detectionParameters:livenessInstructions:appearance:delegate:)",
+            "printedName": "start(serviceConfig:detectionParameters:livenessInstructions:appearance:debugMode:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3747,6 +4177,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "(any NXCDLivenessSDK.DocumentCameraViewControllerDelegate)?",
                 "children": [
@@ -3761,8 +4198,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15NXCDLivenessSDK8DocumentC5start13serviceConfig19detectionParameters20livenessInstructions10appearance8delegateAA0C20CameraViewControllerCAA0C20ServiceConfigurationV_AA0c9DetectionH0VAA0cJ5ModelVAA0cmnO10AppearanceVAA0cmnO8Delegate_pSgtFZ",
-            "mangledName": "$s15NXCDLivenessSDK8DocumentC5start13serviceConfig19detectionParameters20livenessInstructions10appearance8delegateAA0C20CameraViewControllerCAA0C20ServiceConfigurationV_AA0c9DetectionH0VAA0cJ5ModelVAA0cmnO10AppearanceVAA0cmnO8Delegate_pSgtFZ",
+            "usr": "s:15NXCDLivenessSDK8DocumentC5start13serviceConfig19detectionParameters20livenessInstructions10appearance9debugMode8delegateAA0C20CameraViewControllerCAA0C20ServiceConfigurationV_AA0c9DetectionH0VAA0cJ5ModelVAA0copQ10AppearanceVSbAA0copQ8Delegate_pSgtFZ",
+            "mangledName": "$s15NXCDLivenessSDK8DocumentC5start13serviceConfig19detectionParameters20livenessInstructions10appearance9debugMode8delegateAA0C20CameraViewControllerCAA0C20ServiceConfigurationV_AA0c9DetectionH0VAA0cJ5ModelVAA0copQ10AppearanceVSbAA0copQ8Delegate_pSgtFZ",
             "moduleName": "NXCDLivenessSDK",
             "static": true,
             "declAttributes": [
@@ -3826,7 +4263,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(phoneParallelToDocument:bringCameraCloser:moveCameraAway:centerTheDocument:processing:)",
+            "printedName": "init(phoneParallelToDocument:bringCameraCloser:moveCameraAway:centerTheDocument:alignDocument:processing:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3868,11 +4305,18 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NXCDLivenessSDK25DocumentInstructionsModelV015phoneParallelToC017bringCameraCloser04moveJ4Away09centerTheC010processingACSS_S4Stcfc",
-            "mangledName": "$s15NXCDLivenessSDK25DocumentInstructionsModelV015phoneParallelToC017bringCameraCloser04moveJ4Away09centerTheC010processingACSS_S4Stcfc",
+            "usr": "s:15NXCDLivenessSDK25DocumentInstructionsModelV015phoneParallelToC017bringCameraCloser04moveJ4Away09centerTheC005alignC010processingACSS_S5Stcfc",
+            "mangledName": "$s15NXCDLivenessSDK25DocumentInstructionsModelV015phoneParallelToC017bringCameraCloser04moveJ4Away09centerTheC005alignC010processingACSS_S5Stcfc",
             "moduleName": "NXCDLivenessSDK",
             "declAttributes": [
               "AccessControl"
@@ -4052,6 +4496,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ServiceConfiguration",
+            "printedName": "ServiceConfiguration",
+            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP",
+            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -4063,13 +4514,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ServiceConfiguration",
-            "printedName": "ServiceConfiguration",
-            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP",
-            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP"
           }
         ]
       },
@@ -4816,38 +5260,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4858,17 +5274,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -4879,10 +5295,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -4890,6 +5327,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -5285,6 +5736,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ServiceConfiguration",
+            "printedName": "ServiceConfiguration",
+            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP",
+            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -5296,13 +5754,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ServiceConfiguration",
-            "printedName": "ServiceConfiguration",
-            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP",
-            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP"
           }
         ]
       },
@@ -5672,13 +6123,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -5686,10 +6130,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5912,30 +6370,72 @@
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
-      "offset": 329,
+      "offset": 349,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
-      "offset": 385,
+      "offset": 405,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
-      "offset": 564,
+      "offset": 584,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
       "kind": "FloatLiteral",
-      "offset": 620,
+      "offset": 890,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 1147,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 1358,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 1414,
       "length": 4,
       "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 1459,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 1505,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Configs\/ConfigDetectionParameters.swift",
+      "kind": "FloatLiteral",
+      "offset": 1554,
+      "length": 4,
+      "value": "0.15"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
@@ -6155,6 +6655,153 @@
       "value": "4.0"
     },
     {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5224,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5319,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5590,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5624,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5651,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5916,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5952,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5986,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6013,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6280,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6316,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6351,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6378,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6706,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 6746,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7419,
+      "length": 32,
+      "value": "\"com.nxcd.document.sessionQueue\""
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8384,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33533,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentCutoutView.swift",
       "kind": "FloatLiteral",
       "offset": 244,
@@ -6171,35 +6818,42 @@
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 413,
       "length": 40,
       "value": "\"Colocar telefone paralelo ao documento\""
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 473,
+      "offset": 499,
       "length": 20,
       "value": "\"Aproxime a câmera\""
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 562,
       "length": 18,
       "value": "\"Afaste a câmera\""
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 626,
       "length": 24,
       "value": "\"Centralize o documento\""
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 692,
+      "length": 20,
+      "value": "\"Alinhe o documento\""
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentInstructionsModel.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
       "length": 13,
       "value": "\"Processando\""
     },
@@ -6227,77 +6881,63 @@
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 631,
+      "offset": 623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1852,
+      "offset": 2596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2152,
-      "length": 4,
-      "value": "0.65"
-    },
-    {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
-      "kind": "FloatLiteral",
-      "offset": 2215,
-      "length": 4,
-      "value": "0.65"
-    },
-    {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
-      "kind": "FloatLiteral",
-      "offset": 2448,
+      "offset": 3163,
       "length": 4,
       "value": "1.05"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2511,
+      "offset": 3219,
       "length": 4,
       "value": "1.05"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
-      "kind": "FloatLiteral",
-      "offset": 2739,
-      "length": 3,
-      "value": "0.9"
+      "kind": "IntegerLiteral",
+      "offset": 3496,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3519,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2797,
+      "offset": 4156,
       "length": 3,
-      "value": "0.9"
+      "value": "0.1"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 3027,
+      "offset": 4180,
       "length": 3,
-      "value": "1.1"
-    },
-    {
-      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
-      "kind": "FloatLiteral",
-      "offset": 3085,
-      "length": 3,
-      "value": "1.1"
+      "value": "0.1"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3279,
+      "offset": 4365,
       "length": 4,
       "value": "true"
     },

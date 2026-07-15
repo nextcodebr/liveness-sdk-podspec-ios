@@ -7,5 +7,4 @@ framework module NXCDLivenessSDK {
 
 module NXCDLivenessSDK.Swift {
   header "NXCDLivenessSDK-Swift.h"
-  requires objc
 }
