@@ -100,8 +100,15 @@ public struct DocumentInstructionsModel {
 }
 public struct DocumentServiceConfiguration : NXCDLivenessSDK.ServiceConfiguration {
   public let isTest: Swift.Bool
-  public let apiKey: Swift.String
+  public let authorizationValue: Swift.String
+  public let endpointURL: Swift.String?
+  public init(isTest: Swift.Bool = false, authorizationValue: Swift.String, endpointURL: Swift.String? = nil)
+  @available(*, deprecated, message: "Use init(isTest:authorizationValue:endpointURL:), passando \"ApiKey <chave>\" ou \"Bearer <jwt>\".")
   public init(isTest: Swift.Bool = false, apiKey: Swift.String)
+  @available(*, deprecated, message: "Leia `authorizationValue`.")
+  public var apiKey: Swift.String {
+    get
+  }
 }
 public class DocumentViewModel {
   public init(serviceConfig: NXCDLivenessSDK.DocumentServiceConfiguration, detectionParameters: NXCDLivenessSDK.DocumentDetectionParameters = DocumentDetectionParameters(), documentInstructions: NXCDLivenessSDK.DocumentInstructionsModel = DocumentInstructionsModel())
@@ -135,8 +142,15 @@ public struct LivenessInstructionsModel {
 }
 public struct LivenessServiceConfiguration : NXCDLivenessSDK.ServiceConfiguration {
   public let isTest: Swift.Bool
-  public let apiKey: Swift.String
+  public let authorizationValue: Swift.String
+  public let endpointURL: Swift.String?
+  public init(isTest: Swift.Bool = false, authorizationValue: Swift.String, endpointURL: Swift.String? = nil)
+  @available(*, deprecated, message: "Use init(isTest:authorizationValue:endpointURL:), passando \"ApiKey <chave>\" ou \"Bearer <jwt>\".")
   public init(isTest: Swift.Bool = false, apiKey: Swift.String)
+  @available(*, deprecated, message: "Leia `authorizationValue`.")
+  public var apiKey: Swift.String {
+    get
+  }
 }
 final public class LivenessViewModel {
   public init(serviceConfig: NXCDLivenessSDK.LivenessServiceConfiguration, detectionParameters: NXCDLivenessSDK.LivenessPoseDetectionParameters = LivenessPoseDetectionParameters(), livenessInstructions: NXCDLivenessSDK.LivenessInstructionsModel = LivenessInstructionsModel())
@@ -151,5 +165,11 @@ public enum SDKError : Swift.Error {
 }
 public protocol ServiceConfiguration {
   var isTest: Swift.Bool { get }
-  var apiKey: Swift.String { get }
+  var authorizationValue: Swift.String { get }
+  var endpointURL: Swift.String? { get }
+}
+extension NXCDLivenessSDK.ServiceConfiguration {
+  public var endpointURL: Swift.String? {
+    get
+  }
 }
