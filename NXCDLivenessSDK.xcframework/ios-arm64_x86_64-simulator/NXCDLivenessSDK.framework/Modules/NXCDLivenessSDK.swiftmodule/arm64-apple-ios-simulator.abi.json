@@ -4409,8 +4409,8 @@
           },
           {
             "kind": "Var",
-            "name": "apiKey",
-            "printedName": "apiKey",
+            "name": "authorizationValue",
+            "printedName": "authorizationValue",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4420,8 +4420,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvp",
-            "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvp",
+            "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV18authorizationValueSSvp",
+            "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV18authorizationValueSSvp",
             "moduleName": "NXCDLivenessSDK",
             "declAttributes": [
               "HasStorage",
@@ -4443,13 +4443,123 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvg",
-                "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvg",
+                "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV18authorizationValueSSvg",
+                "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV18authorizationValueSSvg",
                 "moduleName": "NXCDLivenessSDK",
                 "implicit": true,
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "endpointURL",
+            "printedName": "endpointURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV11endpointURLSSSgvp",
+            "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV11endpointURLSSSgvp",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV11endpointURLSSSgvg",
+                "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV11endpointURLSSSgvg",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isTest:authorizationValue:endpointURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentServiceConfiguration",
+                "printedName": "NXCDLivenessSDK.DocumentServiceConfiguration",
+                "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV6isTest18authorizationValue11endpointURLACSb_S2SSgtcfc",
+            "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV6isTest18authorizationValue11endpointURLACSb_S2SSgtcfc",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -4480,10 +4590,54 @@
             "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV6isTest6apiKeyACSb_SStcfc",
             "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV6isTest6apiKeyACSb_SStcfc",
             "moduleName": "NXCDLivenessSDK",
+            "deprecated": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvp",
+            "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvp",
+            "moduleName": "NXCDLivenessSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvg",
+                "mangledName": "$s15NXCDLivenessSDK28DocumentServiceConfigurationV6apiKeySSvg",
+                "moduleName": "NXCDLivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -5649,8 +5803,8 @@
           },
           {
             "kind": "Var",
-            "name": "apiKey",
-            "printedName": "apiKey",
+            "name": "authorizationValue",
+            "printedName": "authorizationValue",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5660,8 +5814,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvp",
-            "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvp",
+            "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV18authorizationValueSSvp",
+            "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV18authorizationValueSSvp",
             "moduleName": "NXCDLivenessSDK",
             "declAttributes": [
               "HasStorage",
@@ -5683,13 +5837,123 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvg",
-                "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvg",
+                "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV18authorizationValueSSvg",
+                "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV18authorizationValueSSvg",
                 "moduleName": "NXCDLivenessSDK",
                 "implicit": true,
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "endpointURL",
+            "printedName": "endpointURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV11endpointURLSSSgvp",
+            "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV11endpointURLSSSgvp",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV11endpointURLSSSgvg",
+                "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV11endpointURLSSSgvg",
+                "moduleName": "NXCDLivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isTest:authorizationValue:endpointURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessServiceConfiguration",
+                "printedName": "NXCDLivenessSDK.LivenessServiceConfiguration",
+                "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV6isTest18authorizationValue11endpointURLACSb_S2SSgtcfc",
+            "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV6isTest18authorizationValue11endpointURLACSb_S2SSgtcfc",
+            "moduleName": "NXCDLivenessSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -5720,10 +5984,54 @@
             "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV6isTest6apiKeyACSb_SStcfc",
             "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV6isTest6apiKeyACSb_SStcfc",
             "moduleName": "NXCDLivenessSDK",
+            "deprecated": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvp",
+            "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvp",
+            "moduleName": "NXCDLivenessSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvg",
+                "mangledName": "$s15NXCDLivenessSDK28LivenessServiceConfigurationV6apiKeySSvg",
+                "moduleName": "NXCDLivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -6200,8 +6508,8 @@
           },
           {
             "kind": "Var",
-            "name": "apiKey",
-            "printedName": "apiKey",
+            "name": "authorizationValue",
+            "printedName": "authorizationValue",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6211,10 +6519,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP6apiKeySSvp",
-            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP6apiKeySSvp",
+            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP18authorizationValueSSvp",
+            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP18authorizationValueSSvp",
             "moduleName": "NXCDLivenessSDK",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -6229,13 +6540,131 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP6apiKeySSvg",
-                "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP6apiKeySSvg",
+                "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP18authorizationValueSSvg",
+                "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP18authorizationValueSSvg",
                 "moduleName": "NXCDLivenessSDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : NXCDLivenessSDK.ServiceConfiguration>",
                 "sugared_genericSig": "<Self where Self : NXCDLivenessSDK.ServiceConfiguration>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endpointURL",
+            "printedName": "endpointURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP11endpointURLSSSgvp",
+            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP11endpointURLSSSgvp",
+            "moduleName": "NXCDLivenessSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK20ServiceConfigurationP11endpointURLSSSgvg",
+                "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationP11endpointURLSSSgvg",
+                "moduleName": "NXCDLivenessSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : NXCDLivenessSDK.ServiceConfiguration>",
+                "sugared_genericSig": "<Self where Self : NXCDLivenessSDK.ServiceConfiguration>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endpointURL",
+            "printedName": "endpointURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NXCDLivenessSDK20ServiceConfigurationPAAE11endpointURLSSSgvp",
+            "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationPAAE11endpointURLSSSgvp",
+            "moduleName": "NXCDLivenessSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NXCDLivenessSDK20ServiceConfigurationPAAE11endpointURLSSSgvg",
+                "mangledName": "$s15NXCDLivenessSDK20ServiceConfigurationPAAE11endpointURLSSSgvg",
+                "moduleName": "NXCDLivenessSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : NXCDLivenessSDK.ServiceConfiguration>",
+                "sugared_genericSig": "<Self where Self : NXCDLivenessSDK.ServiceConfiguration>",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -6860,21 +7289,28 @@
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
       "kind": "BooleanLiteral",
-      "offset": 271,
+      "offset": 734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 1584,
       "length": 42,
       "value": "\"https:\/\/api-homolog.nxcd.app\/classify\/v3\""
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Document\/DocumentService.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 1649,
       "length": 34,
       "value": "\"https:\/\/api.nxcd.app\/classify\/v3\""
     },
@@ -7259,21 +7695,28 @@
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
+      "offset": 751,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1116,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
       "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 1601,
       "length": 42,
       "value": "\"https:\/\/api-homolog.nxcd.app\/liveness\/v3\""
     },
     {
       "filePath": "\/Users\/thiago\/Workspace\/NXCD\/liveness-sdk-ios_nova\/NXCDLivenessSDK\/Classes\/Liveness\/LivenessService.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 1666,
       "length": 34,
       "value": "\"https:\/\/api.nxcd.app\/liveness\/v3\""
     },
